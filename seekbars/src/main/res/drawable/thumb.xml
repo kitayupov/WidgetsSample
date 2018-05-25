@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/colorThumb" />
+    <stroke
+        android:width="@dimen/thumbStroke"
+        android:color="@color/colorThumbStroke" />
+    <size
+        android:width="@dimen/thumbSize"
+        android:height="@dimen/thumbSize" />
+</shape>

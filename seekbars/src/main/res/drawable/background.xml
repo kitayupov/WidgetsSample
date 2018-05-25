@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorProgress" />
+            <stroke
+                android:width="@dimen/progressStroke"
+                android:color="@color/colorProgressStroke" />
+            <corners android:radius="@dimen/progressRadius" />
+        </shape>
+    </item>
+    <item
+        android:width="48dp"
+        android:height="48dp"
+        android:drawable="@drawable/plus"
+        android:gravity="top|center_horizontal"
+        android:top="@dimen/imagePadding" />
+    <item
+        android:width="48dp"
+        android:height="48dp"
+        android:bottom="@dimen/imagePadding"
+        android:drawable="@drawable/minus"
+        android:gravity="bottom|center_horizontal" />
+</layer-list>

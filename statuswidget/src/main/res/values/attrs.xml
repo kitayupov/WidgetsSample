@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StatusRow">
+        <attr name="imageSize" format="dimension" />
+        <attr name="imageWidth" format="dimension" />
+        <attr name="imageHeight" format="dimension" />
+        <attr name="spaceSize" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="statusType" format="enum">
+            <enum name="none" value="0" />
+            <enum name="battery" value="1" />
+            <enum name="memory" value="2" />
+        </attr>
+        <attr name="value" format="integer" />
+        <attr name="visionType" format="enum">
+            <enum name="all" value="0" />
+            <enum name="image" value="1" />
+            <enum name="text" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PartnerStyle">
+        <attr name="thumbSize" format="dimension"/>
+        <attr name="thumbStroke" format="dimension"/>
+        <attr name="progressRadius" format="dimension"/>
+        <attr name="progressStroke" format="dimension"/>
+        <attr name="imagePadding" format="dimension"/>
+        <attr name="colorThumb" format="color" />
+        <attr name="colorThumbStroke" format="color" />
+        <attr name="colorProgress" format="color" />
+        <attr name="colorProgressStroke" format="color" />
+        <attr name="colorImage" format="color" />
+    </declare-styleable>
+</resources>

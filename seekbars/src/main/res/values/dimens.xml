@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="thumbSize">60dp</dimen>
+    <dimen name="thumbStroke">3dp</dimen>
+    <dimen name="progressRadius">30dp</dimen>
+    <dimen name="progressStroke">1dp</dimen>
+    <dimen name="imagePadding">6dp</dimen>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PartnerStyle">
+        <item name="android:width">@dimen/thumbSize</item>
+        <item name="android:paddingStart">@dimen/progressRadius</item>
+        <item name="android:paddingEnd">@dimen/progressRadius</item>
+        <item name="android:thumb">@drawable/thumb</item>
+        <item name="android:background">@drawable/background</item>
+        <item name="android:progressDrawable">@drawable/progress</item>
+        <item name="thumbStroke">@dimen/thumbStroke</item>
+        <item name="progressRadius">@dimen/progressRadius</item>
+        <item name="progressStroke">@dimen/progressStroke</item>
+        <item name="imagePadding">6dp</item>
+        <item name="colorThumb">@color/colorThumb</item>
+        <item name="colorThumbStroke">@color/colorThumbStroke</item>
+        <item name="colorProgress">@color/colorProgress</item>
+        <item name="colorProgressStroke">@color/colorProgressStroke</item>
+        <item name="colorImage">@color/colorImage</item>
+    </style>
+
+</resources>

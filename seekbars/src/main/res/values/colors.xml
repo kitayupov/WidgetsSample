@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorThumb">#5fff</color>
+    <color name="colorThumbStroke">#ffff</color>
+    <color name="colorProgress">#1fff</color>
+    <color name="colorProgressStroke">#8fff</color>
+    <color name="colorImage">#afff</color>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.kbnt.rounddiagram.CircularLayout
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center">
+
+        <com.kbnt.rounddiagram.RoundDiagramItem
+            android:id="@+id/rightJabs"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:label="Jab" />
+
+        <com.kbnt.rounddiagram.RoundDiagramItem
+            android:id="@+id/rightHooks"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:label="Hook" />
+
+        <com.kbnt.rounddiagram.RoundDiagramItem
+            android:id="@+id/rightUppers"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:label="Uppercut" />
+
+        <com.kbnt.rounddiagram.RoundDiagramItem
+            android:id="@+id/leftUppers"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:label="Uppercut" />
+
+        <com.kbnt.rounddiagram.RoundDiagramItem
+            android:id="@+id/leftHooks"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:label="Hook" />
+
+        <com.kbnt.rounddiagram.RoundDiagramItem
+            android:id="@+id/leftJabs"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:label="Jab" />
+
+    </com.kbnt.rounddiagram.CircularLayout>
+
+    <com.kbnt.rounddiagram.RoundDiagramItem
+        android:id="@+id/total"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center" />
+
+</FrameLayout>

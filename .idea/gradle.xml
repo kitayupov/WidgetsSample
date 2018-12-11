@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/roundbuttons" />
+            <option value="$PROJECT_DIR$/rounddiagram" />
             <option value="$PROJECT_DIR$/seekbars" />
             <option value="$PROJECT_DIR$/statuswidget" />
             <option value="$PROJECT_DIR$/validator" />

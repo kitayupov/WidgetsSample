@@ -1,0 +1,12 @@
+<resources>
+    <declare-styleable name="RoundDialView">
+        <attr name="colorAcceleration" format="color" />
+        <attr name="colorVelocity" format="color" />
+        <attr name="colorDialBackground" format="color" />
+        <attr name="colorBottom" format="color" />
+        <attr name="colorCenter" format="color" />
+    </declare-styleable>
+    <declare-styleable name="RoundDiagramItem">
+        <attr name="label" format="string" />
+    </declare-styleable>
+</resources>

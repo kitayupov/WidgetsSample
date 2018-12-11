@@ -1,1 +1,1 @@
-include ':app', ':statuswidget', ':seekbars', ':validator', ':validator', ':roundbuttons'
+include ':app', ':statuswidget', ':seekbars', ':validator', ':validator', ':roundbuttons', ':rounddiagram'

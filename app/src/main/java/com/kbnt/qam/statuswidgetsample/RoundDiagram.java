@@ -36,16 +36,16 @@ public class RoundDiagram extends FrameLayout {
 
     private void init() {
         LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        inflater.inflate(com.kbnt.rounddiagram.R.layout.layout, this);
+        inflater.inflate(R.layout.layout, this);
 
-        mLeftJabs = findViewById(com.kbnt.rounddiagram.R.id.leftJabs);
-        mLeftHooks = findViewById(com.kbnt.rounddiagram.R.id.leftHooks);
-        mLeftUppers = findViewById(com.kbnt.rounddiagram.R.id.leftUppers);
+        mLeftJabs = findViewById(R.id.leftJabs);
+        mLeftHooks = findViewById(R.id.leftHooks);
+        mLeftUppers = findViewById(R.id.leftUppers);
 
-        mRightJabs = findViewById(com.kbnt.rounddiagram.R.id.rightJabs);
-        mRightHooks = findViewById(com.kbnt.rounddiagram.R.id.rightHooks);
-        mRightUppers = findViewById(com.kbnt.rounddiagram.R.id.rightUppers);
+        mRightJabs = findViewById(R.id.rightJabs);
+        mRightHooks = findViewById(R.id.rightHooks);
+        mRightUppers = findViewById(R.id.rightUppers);
 
-        mTotal = findViewById(com.kbnt.rounddiagram.R.id.total);
+        mTotal = findViewById(R.id.total);
     }
 }

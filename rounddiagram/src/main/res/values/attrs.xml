@@ -9,4 +9,15 @@
     <declare-styleable name="RoundDiagramItem">
         <attr name="label" format="string" />
     </declare-styleable>
+    <declare-styleable name="RoundDiagramSector">
+        <attr name="color" format="color" />
+        <attr name="count" format="integer" />
+        <attr name="degree" format="integer" />
+        <attr name="gap" format="integer" />
+        <attr name="gradient" format="integer" />
+        <attr name="radius" format="dimension" />
+        <attr name="rim" format="dimension" />
+        <attr name="rimColor" format="color" />
+        <attr name="sectors" format="integer" />
+    </declare-styleable>
 </resources>

@@ -118,5 +118,6 @@ public class RoundDiagramSector extends View {
 
     public void setSelectedSector(int index) {
         mSelectedSector = index % mSectors;
+        invalidate();
     }
 }

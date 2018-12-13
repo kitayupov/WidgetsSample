@@ -9,7 +9,6 @@
     <declare-styleable name="RoundDiagramItem">
         <attr name="label" format="string" />
         <attr name="textSize" format="dimension" />
-        <attr name="countSize" format="dimension" />
     </declare-styleable>
     <declare-styleable name="RoundDiagramSector">
         <attr name="color" format="color" />

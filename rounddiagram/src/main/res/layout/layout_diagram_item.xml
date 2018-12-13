@@ -15,7 +15,7 @@
         tools:layout_width="300dp" />
 
     <TextView
-        android:id="@+id/count"
+        android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
@@ -26,18 +26,6 @@
         app:layout_constraintStart_toStartOf="@+id/dial"
         app:layout_constraintTop_toTopOf="@+id/dial"
         tools:text="12" />
-
-    <TextView
-        android:id="@+id/text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textColor="#ffff"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/dial"
-        app:layout_constraintEnd_toEndOf="@+id/dial"
-        app:layout_constraintStart_toStartOf="@+id/dial"
-        app:layout_constraintTop_toTopOf="@+id/dial" />
 
     <TextView
         android:id="@+id/label"

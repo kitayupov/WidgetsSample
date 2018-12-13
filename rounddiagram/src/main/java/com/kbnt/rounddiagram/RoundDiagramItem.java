@@ -14,7 +14,6 @@ import android.widget.TextView;
 public class RoundDiagramItem extends ConstraintLayout {
 
     private RoundDialView mDial;
-    private TextView mCount;
     private TextView mText;
 
     public RoundDiagramItem(@NonNull Context context) {
@@ -37,7 +36,6 @@ public class RoundDiagramItem extends ConstraintLayout {
                 attrs, R.styleable.RoundDiagramItem, defStyle, 0);
         String label = a.getString(R.styleable.RoundDiagramItem_label);
         int textSize = a.getDimensionPixelSize(R.styleable.RoundDiagramItem_textSize, 0);
-        int countTextSize = a.getDimensionPixelSize(R.styleable.RoundDiagramItem_countSize, 0);
         a.recycle();
 
         LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -45,18 +43,14 @@ public class RoundDiagramItem extends ConstraintLayout {
         ((TextView) findViewById(R.id.label)).setText(label);
 
         mDial = findViewById(R.id.dial);
-        mCount = findViewById(R.id.count);
         mText = findViewById(R.id.text);
         if (textSize > 0) {
             mText.setTextSize(TypedValue.COMPLEX_UNIT_SP, textSize);
         }
-        if (countTextSize > 0) {
-            mCount.setTextSize(TypedValue.COMPLEX_UNIT_SP, countTextSize);
-        }
     }
 
     public void setCount(@IntRange(from = 0) int count) {
-        mCount.setText(String.valueOf(count));
+        setText(String.valueOf(count));
     }
 
     public void setText(String text) {
